@@ -1,6 +1,6 @@
 # Hython Docker
 
-🐍👾Import Python. Write in LISP. Credit due to the github repo `hylang/hy`; now container ready.👾🐍
+🐍👾Import Python. Write in LISP. Credit due to [`hylang`](https://hylang.org/); now container ready👾🐍
 
 This LISP Container which extends the python universe is an ethical and aesthetic return to the tradition of LISP. Though Scheme would be ideal in keeping with the traditions of the Structure and Interpretation of Computer Programs, for now the existing tool landscape makes use of another dialect of the language.
 
