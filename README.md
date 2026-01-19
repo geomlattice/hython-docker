@@ -17,6 +17,10 @@ The container is barebones but provides a basic http server
 (cherrypy.quickstart (HelloWorld))
 ```
 
+Visit the webpage at `http://localhost:3339`
+
+More information on [cherrypy](https://docs.cherrypy.dev/en/latest/intro.html)
+
 To use as a dev environment
 ```bash
 make dbash
