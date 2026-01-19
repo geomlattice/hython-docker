@@ -1,5 +1,7 @@
 # Hython Docker
 
+🐍👾Import Python. Write in LISP. Credit due to the github repo `hylang/hy`; now container ready.👾🐍
+
 This LISP Container which extends the python universe is an ethical and aesthetic return to the tradition of LISP. Though Scheme would be ideal in keeping with the traditions of the Structure and Interpretation of Computer Programs, for now the existing tool landscape makes use of another dialect of the language.
 
 The container is barebones but provides a basic http server
@@ -13,6 +15,14 @@ The container is barebones but provides a basic http server
 
 (cherrypy.config.update {"server.socket_host" "0.0.0.0"})
 (cherrypy.quickstart (HelloWorld))
+```
+
+To use as a dev environment
+```bash
+make dbash
+/root/.local/bin/hy factorial.hy.scm #run lisp
+$PKG install $EDITOR
+$EDIT factorial.hy.scm
 ```
 
 Adapted from Scheme:
