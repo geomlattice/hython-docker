@@ -35,3 +35,26 @@ Adapted from Scheme:
 (print(factorial 3))
 (print(factorial 5))
 ```
+
+### Acknowledgments 
+
+This container would not work without the project hy, and effort to embed a dialect of LISP in python which was carried out by [Kodi Arfer](https://github.com/Kodiologist), with the repo found [here](https://github.com/hylang/hy)
+
+Documentation on hy [here](https://hylang.org/hy/doc/v1.2.0/tutorial)
+
+Useful table from tutorial:
+
+| Hy | Python | Type |
+| ---- | ---- | ---- | 
+| 1 | 1 | int |
+| 1.2 | 1.2 | float |
+| 4j | 4j | complex |
+| True | True | bool |
+| None | None | NoneType |
+| "hy" | 'hy' | str |
+| b"hy" | b'hy' | bytes |
+| #(1 2 3) | (1, 2, 3) | tuple |
+| [1 2 3] | [1, 2, 3] | list |
+| #{1 2 3} | {1, 2, 3} | set |
+| {1 2  3 4} | {1: 2, 3: 4} | dict |
+
